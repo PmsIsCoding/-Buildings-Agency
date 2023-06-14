@@ -79,12 +79,12 @@ header button[type="button"]{
 }
 .main section{
     width: 45%;
-    transform: translate(120px,120px);
+    transform: translate(50%,120px);
 }
 section h1{
     font-size: 60px;
     font-family: 'kanit regular';
-    color: #778dc5;
+    color: #FDFDFD;
 }
 section p{
     font-size: 20px;
