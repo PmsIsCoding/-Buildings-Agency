@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 12vh;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
+}
+header img{
+    width: 200px;
+    margin: 13px;
+    margin-left: 50px;
+}
+header form input{
+    height: 40px;
+    width: 270px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 25px;
+    padding-left:15px;
+    box-shadow: 3px 6px 17px #181b1f;
+    background-color: #EADCBF;
+}
+header form button{
+    height: 40px;
+    width: 65px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 6px 17px #181b1f;
+    background-color: #778dc5af;
+    margin-left: 5px;
+}
