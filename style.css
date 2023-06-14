@@ -3,33 +3,108 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "kanit";
+    src: url(medias-site/Kanit-SemiBold.ttf);
+}
+@font-face {
+    font-family: "geologica";
+    src: url(medias-site/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+}
+@font-face{
+    font-family: 'kanit regular';
+    src: url(medias-site/Kanit-Regular.ttf);
+}
 header{
-    height: 12vh;
+    height: 15vh;
     display: flex;
     flex-direction: horizontal;
     justify-content: space-between;
+    background-color: #FDFDFD;
 }
 header img{
     width: 200px;
     margin: 13px;
-    margin-left: 50px;
+    transform: translate(37px,8px);
+}
+header form{
+    margin: auto;
+    transform: translateX(-15px);
 }
 header form input{
     height: 40px;
-    width: 270px;
+    width: 230px;
     border: none;
     border-radius: 20px 0px 0px 20px;
-    margin-top: 25px;
-    padding-left:15px;
-    box-shadow: 3px 6px 17px #181b1f;
-    background-color: #EADCBF;
+    padding-left: 15px;
+    box-shadow: 3px 6px 17px #92929277;
+    background-color: #F5F5F5;
+}
+header form input::placeholder{
+    font-family: "geologica";
+    color: #778dc5af;
 }
 header form button{
     height: 40px;
     width: 65px;
     border-radius: 8px;
     border: none;
-    box-shadow: 3px 6px 17px #181b1f;
     background-color: #778dc5af;
     margin-left: 5px;
+    color: #F5E4BE;
+    font-size: 10px;
+    text-align: center;
+    font-family: "geologica";
+}
+header button[type="button"]{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    color: #F5E4BE;
+    background-color: #778dc5af;
+    font-size:11px;
+    font-family: "geologica";
+    transform: translate(-40px,30px);
+}
+.main{
+    background: url(medias-site/image\ de\ fond\ DeukSil.jpg);
+    height: 85vh;
+}
+.degrade{
+    height: 85vh;
+    width: 100vw;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.69),rgba(255, 255, 255, 0));
+    position: absolute;
+}
+.main section{
+    width: 45%;
+    transform: translate(120px,120px);
+}
+section h1{
+    font-size: 60px;
+    font-family: 'kanit regular';
+    color: #778dc5;
+}
+section p{
+    font-size: 20px;
+    font-family: 'geologica';
+    color: #fdfdfdd7;
+}
+.main button{
+    width: 220px;
+    height: 35px;
+    margin-top: 55px;
+    cursor: pointer;
+    margin-right: 25px;
+    border-radius: 17.5px;
+    border: none;
+    background-color: #778dc5af;
+    color: #F5E4BE;
+    font-family: 'geologica';
+}
+.main button:nth-child(1){
+    background-color: #f3dfb4;
+    color: #778dc5;
+    font-family: 'geologica';
 }
