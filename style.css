@@ -15,6 +15,9 @@
     font-family: 'kanit regular';
     src: url(medias-site/Kanit-Regular.ttf);
 }
+button{
+    cursor: pointer;
+}
 header{
     height: 15vh;
     display: flex;
@@ -79,7 +82,7 @@ header button[type="button"]{
 }
 .main section{
     width: 45%;
-    transform: translate(50%,120px);
+    transform: translate(50%,80px);
 }
 section h1{
     font-size: 60px;
@@ -107,4 +110,27 @@ section p{
     background-color: #f3dfb4;
     color: #778dc5;
     font-family: 'geologica';
+}
+
+/* ============style pop-up authentification=========== */
+
+.fond-sombre{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+.authentification{
+    background-color: red;
+    width: 600px;
+    position: absolute;
+    top: 10vh;
+    left: 28vw;
+    z-index: 2;
+
+}
+.authentification h2{
+    text-align: center;
 }

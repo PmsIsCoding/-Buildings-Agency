@@ -25,5 +25,18 @@
             <a href="locations.php"><button>Trouver une location</button></a>
         </section>
     </div>
+    <div class="fond-sombre">
+        
+    </div>
+    <div class="authentification">
+        <form action="" method="post">
+            <h2>Connectez vous : </h2>
+            <label for="username">Nom d'utilisateur : </label><input type="text" name="usernam" id="username"><br>
+            <label for="password">Mot de passe</label><input type="password" name="password" id="password"><br>
+            <input type="submit">
+        </form>
+        <p>ou</p>
+        <a href="inscription.php"><button type="button">S'inscrire</button></a>
+    </div>
 </body>
 </html>
