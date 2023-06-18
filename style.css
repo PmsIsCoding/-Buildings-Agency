@@ -58,7 +58,13 @@ header form button{
     font-size: 10px;
     text-align: center;
     font-family: "geologica";
+    transition: all 0.5s ease;
 }
+header form button:hover{
+    background-color: #f3dfb4;
+    color: #778dc5af;
+    
+}   
 header button[type="button"]{
     height: 30px;
     width: 100px;
@@ -69,7 +75,12 @@ header button[type="button"]{
     font-size:11px;
     font-family: "geologica";
     transform: translate(-40px,30px);
+    transition: all 0.5s ease;
 }
+header button[type="button"]:hover{
+    background-color: #f3dfb4;
+    color: #778dc5af;
+}    
 .main{
     background: url(medias-site/image\ de\ fond\ DeukSil.jpg);
     height: 85vh;
@@ -105,13 +116,22 @@ section p{
     background-color: #778dc5af;
     color: #F5E4BE;
     font-family: 'geologica';
+    transition: all 0.5s ease;
+}
+.main button:hover{
+    background-color: #f3dfb4;
+    color: #778dc5af;
 }
 .main button:nth-child(1){
     background-color: #f3dfb4;
     color: #778dc5;
     font-family: 'geologica';
+    transition: all 0.5s ease;
 }
-
+.main button:nth-child(1):hover{
+    color: #f3dfb4;
+    background-color: #778dc5af;
+}
 /* ============style pop-up authentification=========== */
 
 .fond-sombre{
@@ -166,6 +186,15 @@ section p{
     background-color: #778dc5af;
     border: none;
     color: #f3dfb4;
+    transition: all 0.5s ease;
+}
+.authentification button:hover{
+    background-color: #f3dfb4;
+    color: #778dc5af;
+}
+.authentification button:hover a{
+    background-color: #f3dfb4;
+    color: #778dc5af;
 }
 .authentification img{
     float: right;
@@ -197,6 +226,7 @@ section p{
     padding-top: 8px;
     font-family: 'geologica';
     font-size: 13px;
+    transition: all 0.5s ease;
 }
 .authentification p{
     text-align: center;
