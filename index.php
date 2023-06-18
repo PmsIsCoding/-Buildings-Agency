@@ -26,17 +26,19 @@
         </section>
     </div>
     <div class="fond-sombre">
-        
+
     </div>
     <div class="authentification">
-        <form action="" method="post">
+    <img src="medias-site/Annuler.png" alt="annuler">
+        <form action="" method="post">           
             <h2>Connectez vous : </h2>
             <label for="username">Nom d'utilisateur : </label><input type="text" name="usernam" id="username"><br>
-            <label for="password">Mot de passe</label><input type="password" name="password" id="password"><br>
-            <input type="submit">
+            <label for="password">Mot de passe : </label><input type="password" name="password" id="password"><br>
+            <button type="submit">Envoyer</button>
         </form>
-        <p>ou</p>
-        <a href="inscription.php"><button type="button">S'inscrire</button></a>
+        <p>0u</p>
+        <button type="button"><a href="inscription.php">S'inscrire</a></button>
     </div>
+    <script src="script-popup.js"></script>
 </body>
 </html>
